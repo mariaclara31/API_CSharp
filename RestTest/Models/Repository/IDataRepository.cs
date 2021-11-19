@@ -1,12 +1,6 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using RestTest.Models;
-
-/*---------------------------------------------
- *        Data Repository Interface
- * This is the generic interface which is extended
- * for each Enity Class such as Employeee. 
----------------------------------------------*/
 
 namespace RestTest.Repository
 {
