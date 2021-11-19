@@ -1,12 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
-
-/*------------------------------------------------
-                Enity Models
-This is where the shape of the employee entity data 
-is defined. This is the model of the data that the 
-database and all layers expect to see.
-------------------------------------------------*/
 
 namespace RestTest.Models
 {
