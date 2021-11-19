@@ -4,14 +4,6 @@ using System.Collections.Generic;
 using RestTest.Repository;
 using RestTest.Models;
 
-/*---------------------------------------------------
-                Employee Repository
- This is where the Data Repository Interface class
- is implemented for the Employee Entitys. This is where
- The Crud operations are actually defined. They rely on 
- the Entity Framework objects defined in the model.
---------------------------------------------------*/
-
 namespace RestTest.Models.DataManager
 {
     public class EmployeeManager : IDataRepository<Employee>
