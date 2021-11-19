@@ -7,18 +7,6 @@ using RestTest.Repository;
 using RestTest.Models.DataManager;
 using System.Collections.Generic;
 
-/*--------------------------------------------------
-            EMPLOYEE CONTROLLER 
-Controller handles the http requests to perform CRUD
-operations. Any interaction with database coming from
-the controller are handled by the Data Repository.
-This prevents the API endpoints from having to 
-directly interact with the database. Also it Allows
-the database layer to be abstracted from the rest layer.
-This help when one might want to change databases, or data
-from the database is supplemented from somewhere else.
----------------------------------------------------*/
-
 namespace RestTest.Controllers
 {
     [Route("/[controller]")]
